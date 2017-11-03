@@ -4,7 +4,7 @@
 	  <title>Testseite</title> 
   </head>
     <?php
-      include ("//inc//Header.inc.php");
+      include("/inc/Header.inc.php");
     ?>
 	
     <h1>Kleiner Test</h1>
@@ -16,5 +16,5 @@
     </form>
 	  
     <?php
-      include ("//inc//footer.inc.php");
+      include ("/inc/Footer.inc.php");
     ?>
