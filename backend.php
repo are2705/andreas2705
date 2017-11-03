@@ -10,7 +10,7 @@
       $user = $_POST["user"];
       $passwort = sha1($_POST["passwort"]);
     
-      if($user == "AndreasReichert" and "$passwort == "d88ecd1b5b74025f000811118537c9fce4148279")
+      if($user == "AndreasReichert" and $passwort == "d88ecd1b5b74025f000811118537c9fce4148279")
       {
         echo "Hey, es hat geklappt! :)";
       }
