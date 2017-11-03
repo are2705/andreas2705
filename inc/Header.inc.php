@@ -1,5 +1,5 @@
 <body>
-  <hr>
   <p>
-    <a href="../index.php">Zur Startseite</a>
+    <a href="../index.php">Startseite</a>
   </p>
+  <hr>
