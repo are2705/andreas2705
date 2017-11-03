@@ -4,7 +4,7 @@
 	  <title>Testseite</title> 
   </head>
     <?php
-      include "//inc//Header.inc.php";
+      include("//inc//Header.inc.php");
     ?>
 
     <?php
@@ -24,5 +24,5 @@
     ?>
     
     <?php
-      include "//inc//Footer.inc.php";
+      include("//inc//Footer.inc.php");
     ?>
