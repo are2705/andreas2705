@@ -3,7 +3,9 @@
 	  <meta charset="UTF-8" />
 	  <title>Testseite</title> 
   </head>
-  <body>
+    <?php
+      include "//inc//Header.inc.php";
+    ?>
 
     <?php
       $user = $_POST["user"];
@@ -21,4 +23,6 @@
       }
     ?>
     
-    <p><a href="index.php">Zurück</a></p>
+    <?php
+      include "//inc//Footer.inc.php";
+    ?>
