@@ -16,5 +16,5 @@
     </form>
 	  
     <?php
-      include "//inc//Footer.inc.php";
+      include "//inc//footer.inc.php";
     ?>
