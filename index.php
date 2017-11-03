@@ -3,7 +3,10 @@
 	  <meta charset="UTF-8" />
 	  <title>Testseite</title> 
   </head>
-  <body>
+    <?php
+      include "//inc//Header.inc.php";
+    ?>
+	
     <h1>Kleiner Test</h1>
     
     <form action="backend.php" method="post">
@@ -15,6 +18,3 @@
     <?php
       include "//inc//footer.inc.php";
     ?>
-	  
-  </body>
-</html>
