@@ -14,11 +14,12 @@
       if($user == "AndreasReichert" and $passwort == "d88ecd1b5b74025f000811118537c9fce4148279")
       {
         echo "<h1>Eingeloggt!</h1>";
-	echo "<p>Hey, es hat geklappt! :)</p>";
+	echo "<p>Hey $user, Du bist drin. :)</p>";
+	
       }
       else
       {
-        echo "<h1>Draussen</h1>";
+        echo "<h1>Kein Einlass</h1>";
 	echo "<p>Sorry, die Eingabe war falsch. :(</p>";
       }
     ?>
