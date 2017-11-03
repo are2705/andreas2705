@@ -1,6 +1,6 @@
-//Footer
+  <hr>  
   <?php
-    echo "<hr><p>Uhrzeit: ".date("H:i")."</p>"
+    echo "<p>Uhrzeit: ".date("H:i")."</p>"
   ?>
 
   </body>
