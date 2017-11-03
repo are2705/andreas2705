@@ -4,19 +4,20 @@
 	  <title>Testseite</title> 
   </head>
   <body>
-    <h1>Test</h1>
-    
+
     <?php
       $user = $_POST["user"];
       $passwort = sha1($_POST["passwort"]);
     
       if($user == "AndreasReichert" and $passwort == "d88ecd1b5b74025f000811118537c9fce4148279")
       {
-        echo "Hey, es hat geklappt! :)";
+        echo "<h1>Eingeloggt!</h1>";
+	echo "<p>Hey, es hat geklappt! :)</p>";
       }
       else
       {
-        echo "Sorry, die Eingabe war falsch.";
+        echo "<h1>Draussen</h1>";
+	echo "<p>Sorry, die Eingabe war falsch. :(</p>";
       }
     ?>
     

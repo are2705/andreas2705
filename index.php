@@ -4,7 +4,7 @@
 	  <title>Testseite</title> 
   </head>
   <body>
-    <h1>Hey</h1>
+    <h1>Kleiner Test</h1>
     
     <form action="backend.php" method="post">
       <p>Benutzer:<br /><input type="Text" name="user" /></p>
