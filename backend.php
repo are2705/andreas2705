@@ -22,9 +22,3 @@
     ?>
     
     <p><a href="index.php">Zurück</a></p>
-    
-    <?php
-      echo "<p>Es ist ".date("H:i")." Uhr.</p>"
-    ?>
-  </body>
-</html>
