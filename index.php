@@ -11,9 +11,10 @@
       <p>Passwort:<br /><input type="Password" name="passwort" /></p>
       <p><input type="Submit" value="Absenden" /></p>
     </form>
-    
+	  
     <?php
-      echo "<p>Es ist ".date("H:i")." Uhr.</p>"
+      include "/inc/footer.inc.php";
     ?>
+	  
   </body>
 </html>
